@@ -1,0 +1,10 @@
+01. 安排必得特长 1.0.1
+
+安排结算时，关联特长的概率判定为100%；年龄、性别及不可重复获得等条件仍保留。无关联特长的活动不会凭空产生特长。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/GuaranteedSpecialties/ChineseParents.GuaranteedSpecialties.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.guaranteedspecialties.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/GuaranteedSpecialties 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。

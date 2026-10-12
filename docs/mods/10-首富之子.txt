@@ -1,0 +1,10 @@
+10. 首富之子 1.0.0
+
+每回合零花钱收入以80为下限：10变80，80仍80，200仍200。不是把总余额设成80。新开局、读档、下一代及“模拟人生”均适用；沿用商店开放后的原版发放时机，读档不会额外发钱，也不额外添加人物身份或特长。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/RichHeir/ChineseParents.RichHeir.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.richheir.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/RichHeir 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。

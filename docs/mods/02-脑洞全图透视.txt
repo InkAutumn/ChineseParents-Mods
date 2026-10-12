@@ -1,0 +1,10 @@
+02. 脑洞全图透视 1.1.1
+
+每层脑洞显示并解锁有效格子，翻牌动画结束后可直接点击远处格子。行动力消耗、奖励及宝箱、钥匙、炸弹规则保留；随机格仍显示随机图标。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/BrainReveal/ChineseParents.BrainReveal.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.brainreveal.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/BrainReveal 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。

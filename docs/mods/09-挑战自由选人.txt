@@ -1,0 +1,10 @@
+09. 挑战自由选人 1.0.0
+
+在原“挑战”界面点击“选择对手”，可从全部7位角色中选择。条件按所选角色核对；失败可在后续回合重试，本代已击败者不能重复领奖，下一代重置。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/ChallengeChoice/ChineseParents.ChallengeChoice.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.challengechoice.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/ChallengeChoice 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。

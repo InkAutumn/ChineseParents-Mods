@@ -1,0 +1,10 @@
+03. 打工快速结算 1.0.1
+
+点击原打工按钮即可快速结算，省去动画和完成文字等待。保留行动力消耗、压力、解锁及工资增益规则；取消逐帧等待后，单次金额可能有边界差异。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/InstantWork/ChineseParents.InstantWork.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.instantwork.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/InstantWork 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。

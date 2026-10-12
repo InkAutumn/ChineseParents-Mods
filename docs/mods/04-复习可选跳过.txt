@@ -1,0 +1,14 @@
+04. 复习可选跳过 1.0.1
+
+普通复习合成小游戏可选“跳过领取”或“正常复习”，Esc继续原棋盘。每3点行动力折算一次操作，保留余数；默认6次操作约合1道题，按题表估算收益后在75%～125%范围抽取悟性。确认前显示成本和范围。这是估算收益，不等同于手动最优解，不影响高考、艺术考试或专业报考。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/ReviewSkip/ChineseParents.ReviewSkip.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.reviewskip.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/ReviewSkip 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。
+
+可选配置：[Reward] 下 OperationsPerQuestion = 6、MinimumPercent = 75、MaximumPercent = 125。
+OperationsPerQuestion允许1～30；两个百分比允许1～200，倒置时自动排序。
+默认从难度1开始、悟性空间充足时：100行动力消耗99，获得243～404悟性；300行动力获得1292～2153悟性。

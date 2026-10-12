@@ -1,0 +1,10 @@
+05. 社交好感度预测 1.0.0
+
+社交选项显示姓名和预计好感度增减，支持男孩互动与女孩社交事件，考虑当前增益及上限；随机结果显示范围，零花钱不足会提示。仅预测好感度，不预告后续剧情。
+
+安装位置（相对于游戏目录）：BepInEx/plugins/SocialPreview/ChineseParents.SocialPreview.dll
+首次运行后生成的配置：BepInEx/config/inkautumn.chineseparents.socialpreview.cfg
+退出游戏后将 [General] 下的 Enabled = true 改为 Enabled = false，再启动游戏即可关闭。
+十个模组均默认开启；各功能独立，共用本合集的运行环境。
+只想安装此模组时，先复制“复制到游戏根目录”中的运行环境，但暂不复制 plugins；然后仅复制 plugins/SocialPreview 文件夹。
+完整步骤、版本检查、备份和卸载方法见包内“00-安装与卸载说明.txt”。
